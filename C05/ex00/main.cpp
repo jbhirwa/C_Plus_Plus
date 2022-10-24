@@ -2,8 +2,8 @@
 
 int main()
 {
-	bureaucrat john("John", 2);
-	bureaucrat jim("Jim", 149);
+	Bureaucrat john("John", 2);
+	Bureaucrat jim("Jim", 149);
 
 	try
 	{
