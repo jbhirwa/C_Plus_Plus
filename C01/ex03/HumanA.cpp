@@ -1,7 +1,3 @@
-/* In the main You can create an object  */
-// Whenever possible everything is sent as a reference.
-
-//if teh variables are not private fields but the variable should not be changed once set... then set it as const
 #include "HumanA.hpp"
 HumanA::HumanA(std::string name, Weapon &weapon): _name(name), _weapon(&weapon)
 {

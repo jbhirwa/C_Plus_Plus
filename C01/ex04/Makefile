@@ -1,4 +1,4 @@
-NAME			= bureaucrat
+NAME			= replaceFile
 CPP				= g++
 RM				= rm -f
 CFLAGS			= -Wall -Wextra -Werror

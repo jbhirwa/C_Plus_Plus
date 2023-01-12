@@ -48,30 +48,8 @@ void    harl_levels::complain(std::string level)
          case 3:
              harl_levels::error();
              break ;
+        default:
+            std::cout << "default" << std::endl;
+            break;
     }
 }
-
-/*
-void    harl_levels::complain(std::string level)
-{
-    std::string levels_arr[4] = {
-		"DEBUG",
-		"INFO",
-		"WARNING",
-		"ERROR"
-	};
-    void (harl_levels::*func_arr[4])() = {
-        &harl_levels::debug,
-        &harl_levels::info,
-        &harl_levels::warning,
-        &harl_levels::error
-    };
-     for (int i = 0; i < 4; i++)
-        if (levels_arr[i] == level)
-                (this->*func_arr[i])();
-}
-*/
-/*
-MyClass* myClass = new MyClass();
-    myClass->MyField = "Hello world!";
-*/

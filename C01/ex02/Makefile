@@ -1,4 +1,4 @@
-NAME			= bureaucrat
+NAME			= mainnnn
 CPP				= g++
 RM				= rm -f
 CFLAGS			= -Wall -Wextra -Werror
